@@ -9,11 +9,11 @@ namespace MidTest
     internal class Student
     {
         private int id;
-        private string name;
-        private string gender;
+        private string name = "";
+        private string gender = "";
         private int age;
         private DateTime dateOfBirth;
-        private string classs;
+        private string classs = "";
         private float mark1;
         private float mark2;
         private float mark3;
